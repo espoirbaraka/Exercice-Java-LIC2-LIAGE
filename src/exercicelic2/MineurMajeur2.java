@@ -9,6 +9,7 @@ public class MineurMajeur2 {
         char sexe = objet.next().charAt(0);
         System.out.println("Saisi votre age");
         int age = objet.nextInt();
+        MineurMajeur2 p = new MineurMajeur2();
         age(sexe,age);
     }
     
