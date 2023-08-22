@@ -14,4 +14,9 @@ public class Crocodile extends Animal {
     public void nager(){
         System.out.println("Le crocodile nage");
     }
+    
+    @Override
+    public void crier(){
+        System.out.println("Le crocodile croasse");
+    }
 }

@@ -1,6 +1,6 @@
 package zoo;
 
-public class Animal {
+public abstract class Animal {
     private String nom; 
     private String couleur;
 
@@ -26,4 +26,5 @@ public class Animal {
     public String manger(String nourriture){
         return nourriture;
     }
+    public abstract void crier();
 }

@@ -11,8 +11,13 @@ public class Lion extends Animal{
         this.poids = poids;
     }
     
+    
     public void chasser(){
         System.out.println("Le lion chasseee");
+    }
+    @Override
+    public void crier(){
+        System.out.println("Le lion rugit");
     }
     
 }
