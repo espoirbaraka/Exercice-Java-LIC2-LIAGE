@@ -12,7 +12,7 @@ public class Lion extends Animal{
     }
     
     public void chasser(){
-        System.out.println("Le lion chasse");
+        System.out.println("Le lion chasseee");
     }
     
 }

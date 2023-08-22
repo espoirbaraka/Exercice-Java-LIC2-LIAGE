@@ -9,10 +9,12 @@ public class Main {
         
         c1.setNom("CROCO");
         c1.setCouleur("Grise");
-        System.out.println("Le crocodile "+c1.getNom()+" est de la couleur "+c1.getCouleur());
+        System.out.println("Le crocodile "+c1.getNom()
+                +" est de la couleur "+c1.getCouleur());
         System.out.println("Saisi le nbre de pattes");
         int nbrepatte=obj.nextInt();
-        System.out.println("le crocodile marche avec "+c1.marcher(nbrepatte)+" pattes");
-        c1.manger("poisson");
+        System.out.println("le crocodile marche avec "
+                +c1.marcher(nbrepatte)+" pattes");
+        c1.manger("poissonnnnn");
     }
 }
